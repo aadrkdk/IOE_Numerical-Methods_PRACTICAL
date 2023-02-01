@@ -15,7 +15,7 @@ int main()
     for (i = 0; i < N; i++)
         for (j = 0; j < N + 1; j++)
         {
-            printf("\ta[%d][%d] = ", i + 1, i + 1); //
+            printf("\ta[%d][%d] = ", i + 1, j + 1); //
             scanf("%f", &a[i][j]);
         }
 
